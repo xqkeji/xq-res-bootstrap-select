@@ -1,5 +1,5 @@
 {
-    "name": "xqkeji/xq-com-bootstrap-select",
+    "name": "xqkeji/xq-res-bootstrap-select",
     "description": "新齐通用后台管理页面系统的使用的bootstrap-select的js、css等前端程序的composer包。",
     "type": "library",
     "license": "MIT",
@@ -18,7 +18,7 @@
             {
                 "cmd":["xqkeji\\composer\\Asset","copyDirs"],
                 "param":[{
-                    "vendor/xqkeji/xq-com-bootstrap-select/src/":"resource/bootstrap-select/"
+                    "vendor/xqkeji/xq-res-bootstrap-select/src/":"resource/bootstrap-select/"
                 }]
             }
         ],
@@ -26,13 +26,13 @@
             {
                 "cmd":["xqkeji\\composer\\Asset","rmDirs"],
                 "param":[{
-                    "vendor/xqkeji/xq-com-bootstrap-select/src/":"resource/bootstrap-select/"
+                    "vendor/xqkeji/xq-res-bootstrap-select/src/":"resource/bootstrap-select/"
                 }]
             },
             {
                 "cmd":["xqkeji\\composer\\Asset","copyDirs"],
                 "param":[{
-                    "vendor/xqkeji/xq-com-bootstrap-select/src/":"resource/bootstrap-select/"
+                    "vendor/xqkeji/xq-res-bootstrap-select/src/":"resource/bootstrap-select/"
                 }]
             }
         ],
@@ -40,7 +40,7 @@
             {
                 "cmd":["xqkeji\\composer\\Asset","rmDirs"],
                 "param":[{
-                    "vendor/xqkeji/xq-com-bootstrap-select/src/":"resource/bootstrap-select/"
+                    "vendor/xqkeji/xq-res-bootstrap-select/src/":"resource/bootstrap-select/"
                 }]
             }
         ]
